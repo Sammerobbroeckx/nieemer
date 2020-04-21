@@ -1,3 +1,8 @@
 [Tue Apr 21 20:51:31 2020] [notice] Apache/2.2.21 (Win32) PHP/5.3.9 configured -- resuming normal operations
 [Tue Apr 21 20:51:31 2020] [notice] Server built: Sep 10 2011 11:34:11
 [Tue Apr 21 20:51:31 2020] [notice] Parent: Created child process 16496
+[Tue Apr 21 20:51:31 2020] [notice] Child 16496: Child process is running
+[Tue Apr 21 20:51:31 2020] [notice] Child 16496: Acquired the start mutex.
+[Tue Apr 21 20:51:31 2020] [notice] Child 16496: Starting 64 worker threads.
+[Tue Apr 21 20:51:31 2020] [notice] Child 16496: Starting thread to listen on port 8080.
+[Tue Apr 21 20:51:31 2020] [notice] Child 16496: Starting thread to listen on port 8080.
