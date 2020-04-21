@@ -1,0 +1,23 @@
+200420 12:20:22 [Note] Plugin 'FEDERATED' is disabled.
+200420 12:20:22 InnoDB: The InnoDB memory heap is disabled
+200420 12:20:22 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+200420 12:20:22 InnoDB: Compressed tables use zlib 1.2.3
+200420 12:20:22 InnoDB: Initializing buffer pool, size = 128.0M
+200420 12:20:22 InnoDB: Completed initialization of buffer pool
+InnoDB: The first specified data file D:\Gebruikers\Jonas\Bureaublad\Nieemer Project\mysql\data\ibdata1 did not exist:
+InnoDB: a new database to be created!
+200420 12:20:22  InnoDB: Setting file D:\Gebruikers\Jonas\Bureaublad\Nieemer Project\mysql\data\ibdata1 size to 10 MB
+InnoDB: Database physically writes the file full: wait...
+200420 12:20:22  InnoDB: Log file D:\Gebruikers\Jonas\Bureaublad\Nieemer Project\mysql\data\ib_logfile0 did not exist: new to be created
+InnoDB: Setting log file D:\Gebruikers\Jonas\Bureaublad\Nieemer Project\mysql\data\ib_logfile0 size to 5 MB
+InnoDB: Database physically writes the file full: wait...
+200420 12:20:22  InnoDB: Log file D:\Gebruikers\Jonas\Bureaublad\Nieemer Project\mysql\data\ib_logfile1 did not exist: new to be created
+InnoDB: Setting log file D:\Gebruikers\Jonas\Bureaublad\Nieemer Project\mysql\data\ib_logfile1 size to 5 MB
+InnoDB: Database physically writes the file full: wait...
+InnoDB: Doublewrite buffer not found: creating new
+InnoDB: Doublewrite buffer created
+InnoDB: 127 rollback segment(s) active.
+InnoDB: Creating foreign key constraint system tables
+InnoDB: Foreign key constraint system tables created
+200420 12:20:23  InnoDB: Waiting for the background threads to start
+200420 12:20:24 InnoDB: 1.1.8 started; log sequence number 0
