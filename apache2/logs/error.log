@@ -1,24 +1,8 @@
-<<<<<<< HEAD
-[Wed Apr 22 17:35:30 2020] [notice] Apache/2.2.21 (Win32) PHP/5.3.9 configured -- resuming normal operations
-[Wed Apr 22 17:35:30 2020] [notice] Server built: Sep 10 2011 11:34:11
-[Wed Apr 22 17:35:31 2020] [notice] Parent: Created child process 14212
-[Wed Apr 22 17:35:31 2020] [notice] Child 14212: Child process is running
-[Wed Apr 22 17:35:31 2020] [notice] Child 14212: Acquired the start mutex.
-[Wed Apr 22 17:35:31 2020] [notice] Child 14212: Starting 64 worker threads.
-[Wed Apr 22 17:35:31 2020] [notice] Child 14212: Starting thread to listen on port 8080.
-[Wed Apr 22 17:35:31 2020] [notice] Child 14212: Starting thread to listen on port 8080.
-[Wed Apr 22 17:35:46 2020] [error] [client ::1] File does not exist: C:/Users/Samme/Desktop/nieemer/root/favicon.ico, referer: http://localhost:8080/
-[Wed Apr 22 17:36:33 2020] [error] [client ::1] script 'C:/Users/Samme/Desktop/nieemer/root/bediener.php' not found or unable to stat, referer: http://localhost:8080/
-[Wed Apr 22 17:36:45 2020] [error] [client ::1] script 'C:/Users/Samme/Desktop/nieemer/root/bediener.php' not found or unable to stat, referer: http://localhost:8080/
-[Wed Apr 22 17:36:49 2020] [error] [client ::1] File does not exist: C:/Users/Samme/Desktop/nieemer/root/favicon.ico, referer: http://localhost:8080/
-[Wed Apr 22 17:37:48 2020] [error] [client ::1] File does not exist: C:/Users/Samme/Desktop/nieemer/root/favicon.ico, referer: http://localhost:8080/
-=======
-[Tue Apr 21 20:51:31 2020] [notice] Apache/2.2.21 (Win32) PHP/5.3.9 configured -- resuming normal operations
-[Tue Apr 21 20:51:31 2020] [notice] Server built: Sep 10 2011 11:34:11
-[Tue Apr 21 20:51:31 2020] [notice] Parent: Created child process 16496
-[Tue Apr 21 20:51:31 2020] [notice] Child 16496: Child process is running
-[Tue Apr 21 20:51:31 2020] [notice] Child 16496: Acquired the start mutex.
-[Tue Apr 21 20:51:31 2020] [notice] Child 16496: Starting 64 worker threads.
-[Tue Apr 21 20:51:31 2020] [notice] Child 16496: Starting thread to listen on port 8080.
-[Tue Apr 21 20:51:31 2020] [notice] Child 16496: Starting thread to listen on port 8080.
->>>>>>> 1e78a34c94ea5ccd057654ec7eed6e14577e4c33
+[Wed Apr 22 17:43:44 2020] [notice] Apache/2.2.21 (Win32) PHP/5.3.9 configured -- resuming normal operations
+[Wed Apr 22 17:43:44 2020] [notice] Server built: Sep 10 2011 11:34:11
+[Wed Apr 22 17:43:44 2020] [notice] Parent: Created child process 15472
+[Wed Apr 22 17:43:44 2020] [notice] Child 15472: Child process is running
+[Wed Apr 22 17:43:44 2020] [notice] Child 15472: Acquired the start mutex.
+[Wed Apr 22 17:43:44 2020] [notice] Child 15472: Starting 64 worker threads.
+[Wed Apr 22 17:43:44 2020] [notice] Child 15472: Starting thread to listen on port 8080.
+[Wed Apr 22 17:43:44 2020] [notice] Child 15472: Starting thread to listen on port 8080.
