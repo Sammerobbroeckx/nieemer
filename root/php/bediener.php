@@ -14,38 +14,8 @@
 		}
     }
 
-    function loopDrinks() {
-        $sql = "SELECT id, name FROM menu WHERE category='drinks'";
-        
-        $link = LinkDB();
-        if ($result = $link->query($sql)) {
-            echo "<table>";
-            while ($row = $result->fetch_assoc()) {
-                echo "<tr><td>".$row['name'].'</td><td><input type="checkbox" name="chkboxes[]" value="'.($row['id']).'" id="generatedMenu" />'."</td></tr>";
-            }
-            echo "</table>";
-            $result->free();
-        }
-        $link->close();
-    }
-
-    function loopFood() {
-        $sql = "SELECT id, name FROM menu WHERE category='food'";
-        
-        $link = LinkDB();
-        if ($result = $link->query($sql)) {
-            echo "<table>";
-            while ($row = $result->fetch_assoc()) {
-                echo "<tr><td>".$row['name'].'</td><td><input type="checkbox" name="chkboxes[]" value="'.($row['id']).'" id="generatedMenu" />'."</td></tr>";
-            }
-            echo "</table>";
-            $result->free();
-        }
-        $link->close();
-    }
-
-    function loopDessert() {
-        $sql = "SELECT id, name FROM menu WHERE category='dessert'";
+    function loopDish($dish) {
+        $sql = "SELECT id, name FROM menu WHERE category=$dish";
         
         $link = LinkDB();
         if ($result = $link->query($sql)) {

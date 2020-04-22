@@ -15,19 +15,25 @@
             <button type="button" class="collapsible">Drinken</button>
             <div class="content">
               <?php
-                loopDrinks();
+                loopDish("drinks");
               ?>
             </div>
-            <button type="button" class="collapsible">Eten</button>
+            <button type="button" class="collapsible">Voorgerecht</button>
             <div class="content">
               <?php
-                loopFood();
+                loopDish("appetizer");
+              ?>
+            </div>
+            <button type="button" class="collapsible">Hoofdgerecht</button>
+            <div class="content">
+              <?php
+                loopDish("main_course");
               ?>
             </div>
             <button type="button" class="collapsible">Dessert</button>
             <div class="content">
               <?php
-                loopDessert();
+                loopDish("dessert");
               ?>
             </div>
 
