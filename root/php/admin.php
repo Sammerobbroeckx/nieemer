@@ -52,7 +52,7 @@
 				<td>" . $row['name'] . "</td><td>" . $row['price'] . "</td>
 				<td>[Edit]</td>
 				
-				<td><input type='checkbox' name='stock' value='" . $row['stock'] . "' "; if($row['stock'] == 1){ echo "checked='checked'"; } echo "/></td>
+				<td><input type='checkbox' name='stock' onclick='window.location.assign(\"/php/stock.php?id=" . $row['id'] . "\")' value='" . $row['stock'] . "' "; if($row['stock'] == 1){ echo "checked='checked'"; } echo "/></td>
 				<td><a href='/php/delete.php?id=".$row['id']."' onclick='return confirm(\"Ben je zeker dat je dit item wil verwijderen?\");'>[X]</a></td>
 				</tr>";
             }
