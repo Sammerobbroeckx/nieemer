@@ -15,7 +15,7 @@
     }
 
     function loopDish($dish) {
-        $sql = "SELECT id, name FROM menu WHERE category='$dish'";
+        $sql = "SELECT id, name FROM menu WHERE category='$dish' AND stock=1";
         
         $link = LinkDB();
         if ($result = $link->query($sql)) {
