@@ -31,9 +31,7 @@
 			if (!mysqli_query($link,$sql)) {
 				printf("Error: %s\n", mysqli_error($link));
 			} else {
-				/*$_SESSION["melding"] = "Medische Fiche Succesvol Ingediend!";
-				$url = "../mefi/succes/";*/
-                echo "<meta http-equiv='refresh' content='0;URL=$url' />";
+				echo "<meta http-equiv='refresh' content='0;URL=$url' />";
                 mysqli_close($link);
 			}
 		}
@@ -41,5 +39,26 @@
 		{
 			$_SESSION["melding"] = "Er kon geen verbinding gemaakt worden met de database!";
         }
+	}
+	
+	function loopDishAdmin($dish) {
+        $sql = "SELECT * FROM menu WHERE category='$dish'";
+        
+        $link = LinkDB();
+        if ($result = $link->query($sql)) {
+            echo "<table>";
+            while ($row = $result->fetch_assoc()) {
+				echo "<tr>
+				<td>" . $row['name'] . "</td><td>" . $row['price'] . "</td>
+				<td>[Edit]</td>
+				
+				<td><input type='checkbox' name='stock' value='" . $row['stock'] . "' "; if($row['stock'] == 1){ echo "checked='checked'"; } echo "/></td>
+				<td><a href='/php/delete.php?id=".$row['id']."' onclick='return confirm(\"Ben je zeker dat je dit item wil verwijderen?\");'>[X]</a></td>
+				</tr>";
+            }
+            echo "</table>";
+            $result->free();
+        }
+        $link->close();
     }
 ?>

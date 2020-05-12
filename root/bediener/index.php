@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta name="author" content="Jonas Morel">
         <link rel="stylesheet" type="text/css" href="../css/default.css">
         <?php include '../php/bediener.php'; ?>
     </head>
